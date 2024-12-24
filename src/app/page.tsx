@@ -1,9 +1,17 @@
 import Image from "next/image";
-
+import ProductTab from "@/components/products/ProductTab";
+import HeaderNav from "@/components/navigation/header/HeaderNav";
 export default function Home() {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
+    <div className="p-6 font-[family-name:var(--font-geist-sans)]">
+      <main className="flex gap-8 row-start-2 flex-wrap items-center sm:items-start">
+        <HeaderNav/>
+        <ProductTab/>
+        <ProductTab/>
+        <ProductTab/>
+        <ProductTab/>
+        <ProductTab/>
+        <ProductTab/>
       </main>
       <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
       </footer>
