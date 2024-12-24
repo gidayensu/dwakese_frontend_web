@@ -11,7 +11,15 @@ export default {
   	extend: {
   		colors: {
   			background: 'var(--background)',
-  			foreground: 'var(--foreground)'
+  			foreground: 'var(--foreground)', 
+			'dark-primary': '#121212',
+			'dark-secondary': '#1E1E1E',
+			'dwakese-blue': '#3B82F6',
+			'dwakese-red': '#F43F5E',
+			'dwakese-blue-medium': '#2563EB',
+			'dwakese-blue-shade': '#1D4ED8',
+			'dwakese-red-tint': '#FB7185',
+			'dwakese-red-shade': '#E11D48',
   		},
   		borderRadius: {
   			lg: 'var(--radius)',
